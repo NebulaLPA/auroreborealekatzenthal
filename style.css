@@ -1,0 +1,197 @@
+* {
+    background-color: #ffe5ec;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+}
+
+
+#aurore-boreale {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  #ella-bache1 {
+    width: 200px;         /* largeur fixe */
+    height: 200px;        /* hauteur égale à la largeur */
+    object-fit: cover;    /* recadre l'image pour qu'elle remplisse le cercle */
+    border-radius: 50%;   /* rend l'image circulaire */
+    display: block;
+    margin: 0 auto;       /* centre horizontalement */
+  }
+  #ella-bache2 {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+h2, h3, h4 {
+    text-decoration: underline;
+}
+h1 {
+    text-align: center;
+}
+.contact_beaute_section {
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, #fcf8f4, #f7f1ea);
+}
+
+.contact_beaute_container {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.contact_beaute_infos {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(10px);
+  padding: 55px 45px;
+  border-radius: 28px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.06);
+}
+
+.contact_beaute_tag {
+  display: inline-block;
+  margin-bottom: 18px;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a17c5b;
+  font-weight: 600;
+}
+
+.contact_beaute_titre {
+  font-size: 2.6rem;
+  line-height: 1.15;
+  margin-bottom: 22px;
+  color: #1e1e1e;
+  font-family: "Georgia", serif;
+}
+
+.contact_beaute_intro {
+  font-size: 1.08rem;
+  line-height: 1.9;
+  color: #5e5a57;
+  margin-bottom: 35px;
+}
+
+.contact_beaute_bloc {
+  margin-bottom: 28px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(161, 124, 91, 0.18);
+}
+
+.contact_beaute_bloc:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.contact_beaute_bloc h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #1f1f1f;
+  font-weight: 700;
+}
+
+.contact_beaute_bloc address,
+.contact_beaute_bloc p {
+  font-size: 1rem;
+  line-height: 1.9;
+  color: #625d59;
+  font-style: normal;
+  margin: 0;
+}
+
+.contact_beaute_actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 35px;
+}
+
+.btn_beaute {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 26px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.98rem;
+  transition: all 0.3s ease;
+}
+
+.btn_beaute_dark {
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+.btn_beaute_dark:hover {
+  background: #000000;
+  transform: translateY(-2px);
+}
+
+.btn_beaute_light {
+  background: #efe2d2;
+  color: #7b5e46;
+}
+
+.btn_beaute_light:hover {
+  background: #e6d5c1;
+  transform: translateY(-2px);
+}
+
+.contact_beaute_map iframe {
+  width: 100%;
+  min-height: 640px;
+  border: 0;
+  border-radius: 30px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 980px) {
+  .contact_beaute_container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact_beaute_infos {
+    padding: 38px 28px;
+  }
+
+  .contact_beaute_titre {
+    font-size: 2rem;
+  }
+
+  .contact_beaute_map iframe {
+    min-height: 420px;
+  }
+}
+.table-and-image {
+    display: flex;
+    align-items: center; /* aligne verticalement */
+    gap: 20px; /* espace entre la table et l'image */
+  }
+  
+  #coquelicot {
+    width: 100px;
+    height: auto;
+  }
+  
+  .facebook-logo:hover {
+    transform: scale(1.1);
+  }
+  .made-by {
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+  }
+  footer {
+    text-align: center;
+  }
+  
